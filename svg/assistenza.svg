@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Assistenza" role="img" aria-labelledby="title description" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="640px" viewBox="0 0 640 640" enable-background="new 0 0 640 640" xml:space="preserve">
+
+	<title id="title">Riparazione computer a Trieste</title>
+	<description id="description">TRACK Graphics Trieste offre assistenza tecnica remota e on-site, riparazioni computer e upgrade, interventi a domicilio. Offriamo assistenza e consulenza su reti LAN, intranet e server.</description>
+	<g id="Chiave">
+		<path fill="#FFFFFF" d="M178.426-15.853C171.854-9.28,162.425-5.28,152.711-5.28c-9.715,0-19.144-4-26.001-10.572L96.424-46.71
+			c-6.857-6.571-10.857-16-10.857-25.715s4-19.144,10.857-26.001L291-293.001c14.857,37.429,44.857,67.43,82.287,82.287
+			L178.426-15.853z M170.997-108.997c-10,0-18.286,8.286-18.286,18.286s8.286,18.286,18.286,18.286s18.286-8.286,18.286-18.286
+			S180.997-108.997,170.997-108.997z M547.862-304.716c-18,50.858-66.858,86.002-120.86,86.002
+			C356.43-218.714,299-276.144,299-346.717S356.43-474.72,427.002-474.72c20.857,0,48.002,6.286,65.431,18
+			c2.857,2,4.571,4.571,4.571,8c0,3.143-2,6.286-4.571,8l-83.716,48.287v64.001l55.144,30.572
+			c9.429-5.429,75.716-47.145,81.431-47.145c5.714,0,9.143,4.286,9.143,10.001C554.434-325.573,551.005-313.859,547.862-304.716z"/>
+	</g>
+	
+	<g id="Reti">
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="824" y1="384" x2="1152" y2="384"/>
+		<g>
+			<path fill="#13B5EA" d="M1152.001,418c-18.748,0-34.001-15.252-34.001-34s15.253-34,34.001-34c18.747,0,33.999,15.252,33.999,34
+				S1170.748,418,1152.001,418z"/>
+			<path fill="#FFFFFF" d="M1152.001,352c17.672,0,31.999,14.328,31.999,32c0,17.674-14.327,32-31.999,32
+				c-17.674,0-32.001-14.326-32.001-32C1120,366.328,1134.327,352,1152.001,352 M1152.001,348c-19.851,0-36.001,16.149-36.001,36
+				s16.15,36,36.001,36c19.85,0,35.999-16.149,35.999-36S1171.851,348,1152.001,348L1152.001,348z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 1136 396.8359)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="31.9997"></text>
+		<text transform="matrix(1 0 0 1 1014.2891 408)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">e server</text>
+		<text transform="matrix(1 0 0 1 1068.2168 376)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">reti</text>
+	</g>
+	
+	<g id="Upgrade">
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-308" y1="256" x2="-44" y2="256"/>
+		<g>
+			<path fill="#13B5EA" d="M-307.999,290C-326.747,290-342,274.748-342,256s15.253-34,34.001-34c18.747,0,33.999,15.252,33.999,34
+				S-289.252,290-307.999,290z"/>
+			<path fill="#FFFFFF" d="M-307.999,224c17.672,0,31.999,14.328,31.999,32c0,17.674-14.327,32-31.999,32
+				C-325.673,288-340,273.674-340,256C-340,238.328-325.673,224-307.999,224 M-307.999,220C-327.85,220-344,236.149-344,256
+				s16.15,36,36.001,36c19.85,0,35.999-16.149,35.999-36S-288.149,220-307.999,220L-307.999,220z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -322.8564 268.8364)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="31.9997"></text>
+		<text transform="matrix(1 0 0 1 -260 248)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">upgrade</text>
+	</g>
+	
+	<g id="Recupero">
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="704" y1="512" x2="1144" y2="512"/>
+		<g>
+			<path fill="#13B5EA" d="M1152.002,562c-27.571,0-50.002-22.43-50.002-50s22.431-50,50.002-50c27.569,0,49.998,22.43,49.998,50
+				S1179.571,562,1152.002,562z"/>
+			<path fill="#FFFFFF" d="M1152.002,464c26.508,0,47.998,21.492,47.998,48c0,26.511-21.49,48-47.998,48
+				c-26.512,0-48.002-21.489-48.002-48C1104,485.492,1125.49,464,1152.002,464 M1152.002,460c-28.674,0-52.002,23.327-52.002,52
+				s23.328,52,52.002,52c28.672,0,51.998-23.327,51.998-52S1180.674,460,1152.002,460L1152.002,460z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 1131.4287 531.1973)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+		<text transform="matrix(1 0 0 1 986.457 504)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">recupero</text>
+		<text transform="matrix(1 0 0 1 1046.7207 536)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">dati</text>
+	</g>
+	
+	<g id="Domicilio">
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-308" y1="128" x2="-44" y2="128"/>
+		<g>
+			<path fill="#13B5EA" d="M-307.999,178C-335.569,178-358,155.57-358,128s22.431-50,50.001-50C-280.429,78-258,100.43-258,128
+				S-280.429,178-307.999,178z"/>
+			<path fill="#FFFFFF" d="M-307.999,80C-281.491,80-260,101.492-260,128c0,26.511-21.491,48-47.999,48
+				C-334.509,176-356,154.511-356,128C-356,101.492-334.509,80-307.999,80 M-307.999,76C-336.672,76-360,99.327-360,128
+				s23.328,52,52.001,52c28.672,0,51.999-23.327,51.999-52S-279.327,76-307.999,76L-307.999,76z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -330.2861 147.1973)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+		<text transform="matrix(1 0 0 1 -244 152)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">domicilio</text>
+		<text transform="matrix(1 0 0 1 -244 120)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">interventi a</text>
+	</g>
+
+</svg>

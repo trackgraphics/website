@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Webdesign" role="img" aria-labelledby="title description" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="640px" viewBox="0 0 640 640" enable-background="new 0 0 640 640" xml:space="preserve">
+
+	<title id="title">Realizzazione e restyling siti web a Trieste</title>
+	<description id="description">TRACK Graphics di Trieste si occupa di realizzazione e restyling siti web anche e-commerce.</description>
+
+	<g id="Social">
+		<text transform="matrix(1 0 0 1 -287.999 376)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">social</text>
+		<text transform="matrix(1 0 0 1 -287.999 408)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">marketing</text>
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-352" y1="384" x2="-64" y2="384"/>
+		<g>
+			<path fill="#13B5EA" d="M-351.997,434C-379.569,434-402,411.57-402,384s22.431-50,50.003-50c27.568,0,49.997,22.43,49.997,50
+				S-324.429,434-351.997,434z"/>
+			<path fill="#FFFFFF" d="M-351.997,336c26.508,0,47.997,21.492,47.997,48c0,26.51-21.489,48-47.997,48
+				C-378.509,432-400,410.51-400,384C-400,357.492-378.509,336-351.997,336 M-351.997,332C-380.671,332-404,355.327-404,384
+				s23.329,52,52.003,52c28.671,0,51.997-23.327,51.997-52S-323.326,332-351.997,332L-351.997,332z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -387.9985 401.6777)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+	</g>
+	
+	<g id="Responsive">
+		<text transform="matrix(1 0 0 1 -319.999 248)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">siti web</text>
+		<text transform="matrix(1 0 0 1 -319.999 280)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">responsive</text>
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-368" y1="256" x2="-152" y2="256"/>
+		<g>
+			<path fill="#13B5EA" d="M-367.997,290c-18.75,0-34.003-15.252-34.003-34s15.253-34,34.003-34c18.746,0,33.997,15.252,33.997,34
+				S-349.251,290-367.997,290z"/>
+			<path fill="#FFFFFF" d="M-367.997,224c17.671,0,31.997,14.328,31.997,32c0,17.674-14.326,32-31.997,32
+				C-385.672,288-400,273.674-400,256C-400,238.328-385.672,224-367.997,224 M-367.997,220C-387.849,220-404,236.149-404,256
+				s16.151,36,36.003,36c19.849,0,35.997-16.149,35.997-36S-348.148,220-367.997,220L-367.997,220z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -378.2847 268.8364)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="31.9997"></text>
+	</g>
+	
+	<g id="Ecommerce">
+		<text transform="matrix(1 0 0 1 -287.999 120)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">siti web</text>
+		<text transform="matrix(1 0 0 1 -287.999 152)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">e-commerce</text>
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-352" y1="128" x2="-72" y2="128"/>
+		<g>
+			<path fill="#13B5EA" d="M-351.997,178C-379.569,178-402,155.57-402,128s22.431-50,50.003-50C-324.429,78-302,100.43-302,128
+				S-324.429,178-351.997,178z"/>
+			<path fill="#FFFFFF" d="M-351.997,80C-325.489,80-304,101.492-304,128c0,26.511-21.489,48-47.997,48
+				C-378.509,176-400,154.511-400,128C-400,101.492-378.509,80-351.997,80 M-351.997,76C-380.671,76-404,99.327-404,128
+				s23.329,52,52.003,52c28.671,0,51.997-23.327,51.997-52S-323.326,76-351.997,76L-351.997,76z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -374.2842 147.2549)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+	</g>
+	
+	<g id="Grafico">
+		<path fill="#FFFFFF" d="M137.148-70.276c0,5.144-4,9.144-9.143,9.144H73.147c-5.143,0-9.143-4-9.143-9.144v-54.857
+			c0-5.144,4-9.144,9.143-9.144h54.858c5.143,0,9.143,4,9.143,9.144V-70.276z M246.865-70.276c0,5.144-4,9.144-9.143,9.144h-54.858
+			c-5.143,0-9.143-4-9.143-9.144v-91.43c0-5.144,4-9.144,9.143-9.144h54.858c5.143,0,9.143,4,9.143,9.144V-70.276z M356.582-70.276
+			c0,5.144-4,9.144-9.143,9.144h-54.859c-5.143,0-9.143-4-9.143-9.144v-164.574c0-5.144,4-9.144,9.143-9.144h54.859
+			c5.143,0,9.143,4,9.143,9.144V-70.276z M466.299-70.276c0,5.144-4,9.144-9.143,9.144h-54.859c-5.143,0-9.143-4-9.143-9.144
+			v-274.291c0-5.144,4-9.144,9.143-9.144h54.859c5.143,0,9.143,4,9.143,9.144V-70.276z M576.016-70.276c0,5.144-4,9.144-9.143,9.144
+			h-54.859c-5.143,0-9.143-4-9.143-9.144v-420.581c0-5.143,4-9.143,9.143-9.143h54.859c5.143,0,9.143,4,9.143,9.143V-70.276z"/>
+	</g>
+
+</svg>

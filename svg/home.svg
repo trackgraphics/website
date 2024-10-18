@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Home" role="img" aria-labelledby="title description" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="640px" viewBox="0 0 640 640" enable-background="new 0 0 640 640" xml:space="preserve">
+
+	<title id="title">TRACK Graphics Trieste</title>
+	<description id="description">Da quasi 20 anni offriamo servizi informatici su misura: vendita e assistenza tecnica computer con recupero dati, progettazione grafica e stampa, siti web e servizi per AutoCAD.</description>
+
+	<g id="Computer">
+		<polyline id="Computer-s" opacity="0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" points="
+		421.525,512 511.525,512 600,592.241 	"/>
+		<g id="Computer-f">
+			<path fill="#13B5EA" d="M415.527,563c-28.123,0-51.002-22.879-51.002-51s22.879-51,51.002-51c28.12,0,50.998,22.879,50.998,51
+			S443.647,563,415.527,563z"/>
+			<path fill="#FFFFFF" d="M415.527,464c26.508,0,47.998,21.492,47.998,48c0,26.511-21.49,48-47.998,48
+			c-26.512,0-48.002-21.489-48.002-48C367.525,485.492,389.016,464,415.527,464 M415.527,458c-29.777,0-54.002,24.225-54.002,54
+			s24.225,54,54.002,54c29.774,0,53.998-24.225,53.998-54S445.302,458,415.527,458L415.527,458z"/>
+		</g>
+		<text id="Computer-t" transform="matrix(1 0 0 1 352.3125 440)" fill="#FFFFFF" font-family="'Raleway'" font-size="27">Computer</text>
+		<text id="Computer-i" transform="matrix(1 0 0 1 389.8125 531.1963)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+	</g>
+
+	<g id="Grafica">
+		<polyline id="Grafica-s" opacity="0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" points="
+		426,512 330,512 230,612 	"/>
+		<g id="Grafica-f">
+			<path fill="#13B5EA" d="M416.002,563C387.879,563,365,540.121,365,512s22.879-51,51.002-51c28.12,0,50.998,22.879,50.998,51
+			S444.122,563,416.002,563z"/>
+			<path fill="#FFFFFF" d="M416.002,464C442.51,464,464,485.492,464,512c0,26.511-21.49,48-47.998,48C389.49,560,368,538.511,368,512
+			C368,485.492,389.49,464,416.002,464 M416.002,458C386.226,458,362,482.225,362,512s24.226,54,54.002,54
+			C445.776,566,470,541.775,470,512S445.776,458,416.002,458L416.002,458z"/>
+		</g>
+		<text id="Grafica-t" transform="matrix(1 0 0 1 372.5039 440)" fill="#FFFFFF" font-family="'Raleway'" font-size="27">Grafica</text>
+		<text id="Grafica-i" transform="matrix(1 0 0 1 393.7129 531.1963)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+	</g>
+
+	<g id="SitiWeb">
+		<line id="SitiWeb-s" opacity="0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="422" y1="512" x2="618" y2="512"/>
+		<g id="SitiWeb-f">
+			<path fill="#13B5EA" d="M416.002,563C387.879,563,365,540.121,365,512s22.879-51,51.002-51c28.12,0,50.998,22.879,50.998,51
+			S444.122,563,416.002,563z"/>
+			<path fill="#FFFFFF" d="M416.002,464C442.51,464,464,485.492,464,512c0,26.511-21.49,48-47.998,48C389.49,560,368,538.511,368,512
+			C368,485.492,389.49,464,416.002,464 M416.002,458C386.225,458,362,482.225,362,512s24.225,54,54.002,54
+			C445.776,566,470,541.775,470,512S445.776,458,416.002,458L416.002,458z"/>
+		</g>
+		<text id="SitiWeb-i" transform="matrix(1 0 0 1 395.4297 529.6777)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+		<text id="SitiWeb_1_" transform="matrix(1 0 0 1 363.6611 440)" fill="#FFFFFF" font-family="'Raleway'" font-size="27">Siti Web</text>
+	</g>
+
+	<g id="AutoCAD">
+		<polyline id="AutoCAD-s" opacity="0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" points=" 426,512 330,512 230,612 	"/>
+		<g id="AutoCAD-f">
+		<path fill="#13B5EA" d="M416.002,563C387.879,563,365,540.121,365,512s22.879-51,51.002-51c28.12,0,50.998,22.879,50.998,51
+		S444.122,563,416.002,563z"/>
+			<path fill="#FFFFFF" d="M416.002,464C442.51,464,464,485.492,464,512c0,26.511-21.49,48-47.998,48C389.49,560,368,538.511,368,512
+		C368,485.492,389.49,464,416.002,464 M416.002,458C386.226,458,362,482.225,362,512s24.226,54,54.002,54
+		C445.776,566,470,541.775,470,512S445.776,458,416.002,458L416.002,458z"/>
+		</g>
+		<text id="AutoCAD-i" transform="matrix(1 0 0 1 395.4297 531.1973)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+		<text transform="matrix(1 0 0 1 358.1406 440)" fill="#FFFFFF" font-family="'Raleway'" font-size="27">AutoCAD</text>
+	</g>
+
+	<g id="Principale">
+		<text id="Uomo-i" transform="matrix(1 0 0 1 131.4341 576)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="480"></text>
+		<g id="Cuore">
+			<g>
+				<path fill="#FFFFFF" d="M416.002,563C387.879,563,365,540.121,365,512s22.879-51,51.002-51c28.12,0,50.998,22.879,50.998,51
+			S444.122,563,416.002,563z"/>
+				<path fill="#13B5EA" d="M416.002,464C442.51,464,464,485.492,464,512c0,26.511-21.49,48-47.998,48
+			C389.49,560,368,538.511,368,512C368,485.492,389.49,464,416.002,464 M416.002,458C386.226,458,362,482.225,362,512
+			s24.226,54,54.002,54C445.776,566,470,541.775,470,512S445.776,458,416.002,458L416.002,458z"/>
+			</g>
+			<path id="Cuore-i" fill="#BE1E2D" d="M414.816,534.143l-16.711-16.121c-0.213-0.188-6.105-5.569-6.105-11.997
+			c0-7.846,4.794-12.532,12.801-12.532c4.687,0,9.078,3.695,11.193,5.784c2.116-2.089,6.508-5.784,11.194-5.784
+			c8.007,0,12.8,4.687,12.8,12.532c0,6.428-5.891,11.81-6.132,12.051l-16.684,16.067c-0.321,0.321-0.749,0.482-1.179,0.482
+			C415.566,534.625,415.138,534.464,414.816,534.143z"/>
+		</g>
+	</g>
+
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Recupero" role="img" aria-labelledby="title description" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="640px" viewBox="0 0 640 640" enable-background="new 0 0 640 640" xml:space="preserve">
+
+	<title id="title">Recupero dati a Trieste</title>
+	<description id="description">TRACK Graphics di Trieste si occupa di recupero dati da qualsiasi supporto danneggiato.</description>
+	
+	<g id="Dispositivi">
+		<text transform="matrix(1 0 0 1 -420 568)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">recupero da</text>
+		<text transform="matrix(1 0 0 1 -420 600)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">tutti i dispositivi</text>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" points="-468,576 
+			-212,576 -104,468 	"/>
+		<g>
+			<path fill="#13B5EA" d="M-467.999,610C-486.747,610-502,594.748-502,576s15.253-34,34.001-34c18.747,0,33.999,15.252,33.999,34
+				S-449.252,610-467.999,610z"/>
+			<path fill="#FFFFFF" d="M-467.999,544c17.672,0,31.999,14.328,31.999,32c0,17.674-14.327,32-31.999,32
+				C-485.673,608-500,593.674-500,576C-500,558.328-485.673,544-467.999,544 M-467.999,540C-487.85,540-504,556.149-504,576
+				s16.15,36,36.001,36c19.85,0,35.999-16.149,35.999-36S-448.149,540-467.999,540L-467.999,540z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -482.8564 588.8359)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="31.9997"></text>
+	</g>
+	
+	<g id="Professionale">
+		<text transform="matrix(1 0 0 1 -388 312)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">recupero dati</text>
+		<text transform="matrix(1 0 0 1 -388 344)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">professionale</text>
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" x1="-452" y1="320" x2="4" y2="320"/>
+		<g>
+			<path fill="#13B5EA" d="M-451.998,370C-479.569,370-502,347.57-502,320s22.431-50,50.002-50c27.569,0,49.998,22.43,49.998,50
+				S-424.429,370-451.998,370z"/>
+			<path fill="#FFFFFF" d="M-451.998,272c26.507,0,47.998,21.492,47.998,48c0,26.511-21.491,48-47.998,48
+				C-478.51,368-500,346.511-500,320C-500,293.492-478.51,272-451.998,272 M-451.998,268C-480.672,268-504,291.327-504,320
+				s23.328,52,52.002,52c28.672,0,51.998-23.327,51.998-52S-423.326,268-451.998,268L-451.998,268z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -476 339.1973)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="47.9995"></text>
+	</g>
+	
+	<g id="Diagnosi">
+		<text transform="matrix(1 0 0 1 -420 56)" fill="#FFFFFF" font-family="'Raleway'" font-size="24">diagnosi gratuita</text>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="10,10" points="-468,64 
+			-212,64 -156,120 	"/>
+		<g>
+			<path fill="#13B5EA" d="M-467.999,98C-486.747,98-502,82.748-502,64s15.253-34,34.001-34C-449.252,30-434,45.252-434,64
+				S-449.252,98-467.999,98z"/>
+			<path fill="#FFFFFF" d="M-467.999,32C-450.327,32-436,46.328-436,64c0,17.674-14.327,32-31.999,32C-485.673,96-500,81.674-500,64
+				C-500,46.328-485.673,32-467.999,32 M-467.999,28C-487.85,28-504,44.149-504,64s16.15,36,36.001,36
+				C-448.149,100-432,83.851-432,64S-448.149,28-467.999,28L-467.999,28z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -480.5713 76.8364)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="31.9997"></text>
+	</g>
+	
+	<g id="Freccia">
+		<path fill="#FFFFFF" d="M374.289-88.573c-61.338,0-119.194-27.054-158.301-74.198c-2.679-3.483-2.411-8.571,0.536-11.518
+			l36.696-36.964c1.875-1.607,4.286-2.41,6.696-2.41c2.411,0.268,4.821,1.339,6.161,3.214c26.25,34.018,65.625,53.304,108.212,53.304
+			c75.535,0,137.141-61.607,137.141-137.143c0-75.534-61.605-137.141-137.141-137.141c-35.089,0-68.302,13.393-93.213,36.696
+			l36.696,36.963c5.089,4.821,6.429,12.321,3.75,18.482c-2.678,6.428-8.838,10.714-15.803,10.714H185.721
+			c-9.375,0-17.143-7.768-17.143-17.143v-119.998c0-6.964,4.286-13.125,10.714-15.803c6.16-2.679,13.66-1.339,18.481,3.75
+			l34.821,34.553C270.362-478.84,321.521-500,374.289-500C487.591-500,580-407.591,580-294.289
+			C580-180.985,487.591-88.573,374.289-88.573z"/>
+	</g>
+
+</svg>
