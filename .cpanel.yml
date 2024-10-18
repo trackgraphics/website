@@ -17,5 +17,5 @@ deployment:
     - /bin/cp *.php $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH
-    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp *.txt $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
