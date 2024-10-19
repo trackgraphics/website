@@ -231,12 +231,14 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&callback=initMap" async defer></script>
 
 <!-- Google reCAPTCHA v2 API -->
+<!--
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
    function onSubmit(token) {
      document.getElementById("form").submit();
    }
  </script>
+ -->
 
 
 <!-- Snap SVG -->
