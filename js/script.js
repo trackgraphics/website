@@ -178,9 +178,14 @@ function initMap() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: false
   });
-  var marker = new google.maps.Marker({
+  // var marker = new google.maps.Marker({
+  //   position: office,
+  //   map: map,
+  //   icon: 'img/map-marker.png'
+  // });
+  const marker = new AdvancedMarkerElement({
+    map,
     position: office,
-    map: map,
     icon: 'img/map-marker.png'
   });
   map.setOptions({
