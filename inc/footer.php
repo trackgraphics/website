@@ -231,7 +231,7 @@
 <script src="js/script.js"></script>
 
 <!-- Google Maps API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&callback=initMap" async defer></script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&loading=async&callback=initMap"></script>
 
 <!-- Google reCAPTCHA v2 API -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
