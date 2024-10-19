@@ -227,19 +227,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+<!-- Script nostri -->
+<script src="js/script.js"></script>
+
 <!-- Google Maps API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&callback=initMap" async defer></script>
 
 <!-- Google reCAPTCHA v2 API -->
-<!--
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-   function onSubmit(token) {
-     document.getElementById("form").submit();
-   }
- </script>
- -->
-
+<script>function onSubmit(token) {
+        document.getElementById("form").submit();
+    }
+</script>
 
 <!-- Snap SVG -->
 <?php if ( $pageID == 'home' ) {
@@ -286,9 +285,6 @@
     echo '<script src="svg/intro-ransomware.js"></script>';
   }
 ?>
-
-<!-- Script nostri -->
-<script src="js/script.js"></script>
 
 <!-- Matt Aussaguel's WOW JS -->
 <script>
