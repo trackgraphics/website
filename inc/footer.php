@@ -233,12 +233,12 @@
 <!-- Google Maps API -->
 <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&loading=async&libraries=marker&callback=initMap"></script>
 
-<!-- Google reCAPTCHA v2 API -->
+<!-- Google reCAPTCHA v2 API
 <script>function onSubmit(token) {
         document.getElementById("form").submit();
     }
 </script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
 
 <!-- Snap SVG -->
 <?php if ( $pageID == 'home' ) {
