@@ -105,7 +105,8 @@
           </div>
         </div>
         </fieldset>
-        <button id="submit" type="submit" class="btn btn-lg btn-primary btn-labeled g-recaptcha" data-sitekey="6LcA32UqAAAAAIp36nhAPe8zRj2FNyvczmg70dTJ" data-callback="onSubmit">
+        <div class="g-recaptcha" data-sitekey="6LcA32UqAAAAAIp36nhAPe8zRj2FNyvczmg70dTJ"></div>
+        <button id="submit" type="submit" class="btn btn-lg btn-primary btn-labeled">
             <span class="btn-label">Invia la richiesta</span>
             <i class="fa fa-send"></i>
         </button>
@@ -233,12 +234,8 @@
 <!-- Google Maps API -->
 <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&loading=async&libraries=marker&callback=initMap"></script>
 
-<!-- Google reCAPTCHA v2 API
-<script>function onSubmit(token) {
-        document.getElementById("form").submit();
-    }
-</script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+<!-- Google reCAPTCHA v2 API -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- Snap SVG -->
 <?php if ( $pageID == 'home' ) {
