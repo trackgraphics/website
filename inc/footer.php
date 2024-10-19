@@ -36,8 +36,6 @@
   }
   echo $formName;
 }?>
-<!-- Social Sharing -->
-<div class="addthis_sharing_toolbox hidden-lg text-center"></div>
 
 <!-- Contatti -->
 <div id="contatti" class="container">
@@ -107,7 +105,10 @@
           </div>
         </div>
         </fieldset>
-        <button id="submit" type="submit" class="btn btn-lg btn-primary btn-labeled"><span class="btn-label">Invia la richiesta</span><i class="fa fa-send"></i></button>
+        <button id="submit" type="submit" class="btn btn-lg btn-primary btn-labeled g-recaptcha" data-sitekey="6LcA32UqAAAAAIp36nhAPe8zRj2FNyvczmg70dTJ" data-callback="onSubmit">
+            <span class="btn-label">Invia la richiesta</span>
+            <i class="fa fa-send"></i>
+        </button>
       </form>
     </div>
   </div>
@@ -226,10 +227,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-<!-- Add This -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55abda713ae0c804" async="async"></script>
+<!-- Google reCAPTCHA v2 API -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+   function onSubmit(token) {
+     document.getElementById("form").submit();
+   }
+ </script>
 
-<!-- Google Maps API: old key: AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ  -->
+<!-- Google Maps API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyTblyvObm9ZNkZAeyIvlPwK9A2wOSBQ&callback=initMap" async defer></script>
 
 <!-- Snap SVG -->

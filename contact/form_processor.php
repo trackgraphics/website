@@ -34,6 +34,7 @@
         //Set who the message is to be sent to
         $mail->addAddress("info@trackgraphics.it", "Informazioni");
         $mail->addAddress("lorenzo.cavicchi@trackgraphics.it", "Informazioni");
+        $mail->addAddress("mauriziogalli1971@gmail.com", "Informazioni");
         //Set the subject line
         $mail->Subject = "Richiesta informazioni" . ' (' . $formName . ')' ;
         //Set the message body
