@@ -178,16 +178,16 @@ function initMap() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: false
   });
-  // var marker = new google.maps.Marker({
-  //   position: office,
-  //   map: map,
-  //   icon: 'img/map-marker.png'
-  // });
-  const marker = new AdvancedMarkerElement({
-    map,
+  var marker = new google.maps.Marker({
     position: office,
+    map: map,
     icon: 'img/map-marker.png'
   });
+  // const marker = new AdvancedMarkerElement({
+  //   map,
+  //   position: office,
+  //   icon: 'img/map-marker.png'
+  // });
   map.setOptions({
       styles: style
   });
