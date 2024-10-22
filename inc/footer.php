@@ -295,19 +295,14 @@
   });
 </script>
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-  try {
-      var _gaq = _gaq || [];
-      _gaq.push (['_setAccount', 'UA-11844431-1']);
-      _gaq.push (['_gat._anonymizeIp']);
-      _gaq.push (['_trackPageview']);
-      }
-  catch(err) {}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GKP7TKBFN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0GKP7TKBFN');
 </script>
 
 <!-- Privacy Policy e Cookie Policy -->
