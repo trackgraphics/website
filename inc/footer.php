@@ -301,8 +301,36 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-0GKP7TKBFN');
+  gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'wait_for_update': 3000
+    });
+</script>
+<script>
+    function consentGrantedAdStorage() {
+        gtag('consent', 'update', {
+            'ad_storage': 'granted'
+        });
+    }
+    function consentGrantedAdUserData() {
+        gtag('consent', 'update', {
+            'ad_user_data': 'granted'
+        });
+    }
+    function consentGrantedAdPersonalization() {
+        gtag('consent', 'update', {
+            'ad_personalization': 'granted'
+        });
+    }
+    function consentGrantedAnalyticsStorage() {
+        gtag('consent', 'update', {
+            'analytics_storage': 'granted'
+        });
+    }
 </script>
 
 <!-- Privacy Policy e Cookie Policy -->
