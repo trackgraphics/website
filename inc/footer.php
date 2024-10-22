@@ -152,7 +152,7 @@
           <li><a class="scroll" href="#contatti" title="Contatta TRACK Graphics."><i class="fa fa-li fa-envelope"></i>Contatti</a></li>
           <!-- <li><a href="chi-siamo" title="Leggi la nostra storia."><i class="fa fa-li fa-users"></i>Chi siamo</a></li> -->
           <li><a href="testimonianze" title="Clienti soddisfatti di noi."><i class="fa fa-li fa-comments"></i> Dicono di noi</a></li>
-          <li><a href="http://www.iubenda.com/privacy-policy/229001" title="Clienti soddisfatti di noi." target="_blank"><i class="fa fa-li fa-gavel"></i>Privacy</a></li>
+          <li><a href="https://acconsento.click/informative/page/453/it" title="Privacy policy" target="_blank"><i class="fa fa-li fa-gavel"></i>Privacy</a></li>
         </ul>
 
       </div>
