@@ -4,7 +4,7 @@
 @import "flexbox-prefixes.less";
 
 @icon-size: 80px;
-@icon-font-size: @icon-size/2;
+@icon-font-size: 0.5*@icon-size;
 @icon-margin: 30px;
 @icon-border-width: 5px;
 
@@ -29,7 +29,7 @@
   .border-right-radius(50%);
   .border-left-radius(50%);
   .box-shadow(0 1px 5px rgba(0,0,0,0.2));
-  .transition(1s);
+  .transition(0.5s);
 
   background: @brand-bg;
 
@@ -47,11 +47,11 @@
   font-size: @icon-font-size;
   line-height: @icon-size - 2*@icon-border-width;
   @media (min-width: @screen-md-min) {
-		font-size: @icon-font-size * 1.5;
+		font-size:  1.5 * @icon-font-size;
   	line-height: 1.5 * (@icon-size - 1.5 * @icon-border-width);
   }
   text-align: center;
-  .transition(1s);
+  .transition(0.5s);
   }
 
   &:hover::before {
