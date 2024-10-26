@@ -1,0 +1,64 @@
+
+// Container mixins
+
+.flexbox() {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-direction(@direction) {
+  // @direction: row | row-reverse | column | column-reverse
+  -webkit-flex-direction: @direction;
+          flex-direction: @direction;
+}
+
+.flex-wrap(@wrap) {
+  // @wrap: nowrap | wrap | wrap-reverse
+  -webkit-flex-wrap: @wrap;
+  				flex-wrap: @wrap;
+}
+
+.flex-flow(@direction, @wrap) {
+  -webkit-flex-flow: @direction @wrap;
+          flex-flow: @direction @wrap;
+}
+
+.justify-content(@justification) {
+	// @justification: flex-start | flex-end | center | space-between | space-around
+  -webkit-justify-content: @justification;
+          justify-content: @justification;
+}
+
+.align-items(@alignment) {
+	// @alignment: flex-start | flex-end | center | baseline | stretch
+  -webkit-align-items: @alignment;
+					align-items: @alignment;
+}
+
+.align-content(@alignment) {
+	// @alignment: flex-start | flex-end | center | space-between | space-around | stretch
+  -webkit-align-content: @alignment;
+          align-content: @alignment;
+}
+
+
+
+// Items mixins
+
+.flex(@values) {
+  // @values: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  -webkit-flex: @values;
+          flex: @values;
+}
+
+.order(@val) {
+	// @val: <integer>   
+  -webkit-order: @val;  
+          order: @val;
+}
+
+.align-self(@self) {
+	// @self: auto | flex-start | flex-end | center | baseline | stretch
+	-webkit-align-self: @self;
+	        align-self: @self;
+}

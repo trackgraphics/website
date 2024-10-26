@@ -1,7 +1,7 @@
 <?php
   $pageID = 'webdesign';
   $pageTitle = 'Realizzazione e restyling siti web a Trieste';
-  $description = 'TRACK Graphics di Trieste si occupa di realizzazione e restyling siti web anche e-commerce.';
+  $description = 'TRACK Graphics di Trieste si occupa di realizzazione e restyling siti web responsive.';
 ?>
 <?php include('inc/head.php'); ?>
     <!-- Jumbotron -->

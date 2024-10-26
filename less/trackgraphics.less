@@ -1,0 +1,464 @@
+/* TRACK Graphics styles
+-------------------------------------------------- */
+@import "mixins.less";
+@import "variables.less";
+@import "flexbox-prefixes.less";
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  //background: url('img/ricepaper.png');
+}
+
+// Custom navbar links
+.navbar-link {
+  font-weight: @headings-font-weight;
+  > .list-unstyled > li {
+    > a {
+      display: inline-block;
+      padding: 4px 24px;
+      color: @text-color;
+      font-weight: @font-weight;
+    }
+  }
+}
+
+.dropdown-menu .divider {
+  margin: 8px 0 16px 0;
+  background-color: lighten(@brand-bg, 5%);
+}
+
+.navbar-inverse {
+  .navbar-link, .navbar-link:hover {
+    color: @gray;
+  }
+  .dropdown-menu i {
+    color: @brand-primary;
+  }
+} 
+  
+
+  
+
+// Custom button styles
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-label {
+  position: relative;
+  left: -12px;
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px 0 0 3px;
+}
+
+.btn-label.btn-label-right {
+  right: -12px;
+  left: auto;
+  border-radius: 0 3px 3px 0;
+}
+
+.btn-lg .btn-label {
+  left: -16px;
+  padding: 13px 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn-lg .btn-label.btn-label-right {
+  right: -16px;
+  left: auto;
+  border-radius: 0 5px 5px 0;
+}
+
+.btn-sm .btn-label {
+  left: -10px;
+  padding: 5px 10px;
+  border-radius: 2px 0 0 2px;
+}
+
+.btn-sm .btn-label.btn-label-right {
+  right: -10px;
+  left: auto;
+  border-radius: 0 2px 2px 0;
+}
+
+.btn-xs .btn-label {
+  left: -5px;
+  padding: 1px 5px;
+  border-radius: 2px 0 0 2px;
+}
+
+.btn-xs .btn-label.btn-label-right {
+  right: -5px;
+  left: auto;
+  border-radius: 0 2px 2px 0;
+}
+
+// Jumbotron
+.jumbotron {
+  padding: 30px 0;
+  margin-top: @navbar-height;
+  font-size: @jumbotron-font-size;
+  line-height: (@line-height-base * 1.5);
+  color: @jumbotron-color;
+  #gradient > .radial(lighten(@brand-secondary,25%),lighten(@brand-secondary,10%));
+  .box-shadow(0 1px 10px rgba(0,0,0,0.3));
+
+  border-color: #d4d4d4;
+  border-bottom: 1px solid transparent;
+  
+  overflow: hidden;
+
+  @media screen and (min-width: @screen-md-min) {
+    height: calc(~"100vh - 50px");
+    .flexbox();
+    .align-items(center);
+  }
+
+  .h1 {
+    margin-bottom: 0 !important;//@jumbotron-padding;
+    line-height: 1;
+    color: @white;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.7);
+  }
+  p {
+    line-height: @line-height-base;
+  }
+  .very-big {
+    display: none;
+    padding-top: 15px;
+    font-size: @jumbotron-font-size*10;
+    font-family: @font-family-sans-serif;
+    font-weight: 900;
+    letter-spacing: -10px;
+    line-height: 65%;
+  }
+
+  .container & {
+    border-radius: @border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  @media screen and (min-width: @screen-sm-min) {
+    margin-top: @navbar-height;
+    padding-top:    (@jumbotron-padding * 1.6);
+    padding-bottom: (@jumbotron-padding * 1.6);
+
+    .container & {
+      padding-left:  (@jumbotron-padding * 2);
+      padding-right: (@jumbotron-padding * 2);
+    }
+
+    h1 {
+      font-size: (@font-size-base * 4.5);
+    }
+  }
+
+// Media queries for very big class
+  @media screen and (min-width: @screen-xxs-min) and (max-width: @screen-xxs-max) {
+    .very-big {
+      font-size: @jumbotron-font-size*5;
+      letter-spacing: -10px;
+    }
+  }
+
+  @media screen and (min-width: @screen-xs-min) and (max-width: @screen-xs-max) {
+    .very-big {
+      font-size: @jumbotron-font-size*8;
+      letter-spacing: -10px;
+    }
+  }
+  
+  @media screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .very-big {
+      font-size: @jumbotron-font-size*8;
+      letter-spacing: -10px;
+    }
+  }
+}
+
+// Icons in navbar
+.navbar i {
+  margin-right: 8px;
+}
+.navbar i.fa-caret-down {
+  margin-left: 8px;
+  margin-right: 0;
+}
+.navbar i.fa-bars,
+.navbar i.fa-envelope,
+.navbar i.fa-close {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// Other icons
+.fa-li { color: @brand-secondary }
+
+// Accordion Homepage
+#accordion .pull-left {
+  display: none;
+  @media (min-width: @screen-md-min) {
+    display: block;
+  }
+}
+
+//Popover
+.mypopover {
+  cursor: pointer;
+}
+
+// Loader
+.splash-screen {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(img/loader.gif) center no-repeat #ffffff;
+}
+
+// AddThis
+#social {
+  padding-top: 12px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+// Immagini che hanno la testa tagliata
+.bottom-img {
+  @media only screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .flexbox();
+    .align-items(flex-end);
+  }
+}
+
+// Features
+#features {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+// Testimonianze
+.carousel {
+  height: 300px;
+  margin-bottom: 45px;
+  padding-top: 0; 
+  background: @panel-default-heading-bg;
+  border-top: 2px solid @panel-default-border;
+  border-bottom: 2px solid @panel-default-border;
+  @media only screen and (min-width: @grid-float-breakpoint) {
+    margin-bottom: 60px;
+  }
+
+}
+// Since positioning the image, we need to help out the caption
+.carousel-caption {
+  z-index: 10;
+}
+.carousel-caption .fa-circled {
+  margin-top: 20px;
+}
+.carousel-caption p {
+  margin-top: 20px;
+}
+// Declare heights because of positioning of img element
+.carousel .item {
+  height: 300px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+}
+
+// Chi siamo
+#chi-siamo {
+  background-image:url(../images/ciliegia-azzurra.jpg);
+  background-size:cover;
+  color:#FFFFFF;
+}
+
+#chi-siamo p.shadow {
+  text-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+
+// Call to action
+.page-cta {
+  position: relative;
+  padding: 30px 0;
+  background: @panel-default-heading-bg;
+  border-top: 2px solid @panel-default-border;
+  border-bottom: 2px solid @panel-default-border;
+  & > .container {
+    @media only screen and (min-width: @grid-float-breakpoint) {
+      width: 585px;
+    }
+  }
+}
+
+.page-cta::after {
+  position: absolute;
+  content: '';
+  border: none;
+  border-top: 20px solid @panel-default-heading-bg;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  z-index: 0;
+  height: 0;
+  line-height: 0;
+
+  .translate(-50%; 0);
+  .drop-shadow(0; 2px; 0; @panel-default-border);
+
+}
+
+// Testimonial
+h3.testimonial {
+  padding-bottom: 25px;
+  border-bottom: 1px solid @brand-bg;
+}
+.testimonial > .row {
+  margin-bottom: 50px;
+}
+
+// Servizi Homepage accordion
+
+.service-visible {
+  display: block;
+}
+
+.service-hidden {
+  display: none;
+}
+
+// Testimonianze
+#testimonials-container {
+  margin-top: @navbar-height;
+}
+
+// Chi siamo
+#chi-siamo-jumbotron {
+  position: relative;
+  > img {
+    position: absolute;
+    bottom: 0;
+    @media only screen and (max-width: @screen-sm-max) {
+      position: static;
+      .rotate(90deg);
+      margin-left: -80px;
+    }
+  }
+
+}
+
+// Contact
+#submit {
+  margin-top: 10px;
+}
+
+#success {
+  display: none;
+}
+
+.contact-actions {
+  .flexbox();
+  .align-items(center);
+  width: 260px;
+  margin-bottom: 15px;
+  padding: 1px;
+  border: 2px solid @brand-bg;
+  background: lighten(@brand-bg,10%);
+  .border-radius(26.5px);
+  .transition(0.5s);
+  &:hover, &:active, &:visited, &:focus, &:link {
+    text-decoration: none;
+  }
+  &:hover, &:focus, {
+    background: @brand-bg;
+  }
+  & i {
+    margin-right: 15px;
+  }
+}
+
+// Popover
+strong.mypopover {
+  border-bottom: 1px dotted #26b4e9;
+}
+
+
+// Newsletter
+#newsletter {
+  background: @panel-default-heading-bg;
+  border-top: 2px solid @panel-default-border;
+  //border-bottom: 2px solid @panel-default-border;
+  padding: @navbar-height/2 0;
+  @media only screen and (min-width: @grid-float-breakpoint) {
+    padding: @navbar-height 0;
+  }
+}
+
+// MailChimp Form
+#mc_embed_signup {
+  background: inherit;
+  clear:left;
+  font-size: @font-size-base;
+  font-family: inherit
+}
+
+#mc_embed_signup label[for^="mce"] { display: none }
+
+// Mappa
+#map {
+  position: relative;
+  min-height: 480px;
+  width: 100%;
+  margin-top: 45px;
+}
+
+// Footer
+footer {
+  position: relative;
+  // margin-top: 45px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background: url(img/debut_dark.png);
+  color: #666;
+}
+
+footer small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px auto 0;
+  padding: 10px 0;
+  background: #222;
+  text-align: center;
+}
+
+footer .social {
+  margin: 15px 0 30px;
+  a {
+    text-decoration: none;
+  }
+}
+
+footer small i {
+  margin-right: 5px;
+  color: red;
+}
+
+footer a {
+  color: #666;
+}

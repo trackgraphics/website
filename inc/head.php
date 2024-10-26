@@ -130,7 +130,7 @@
     <!-- Google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,900' rel='stylesheet' type='text/css'>
     <!-- Main CSS based upon Boostrap-->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -196,23 +196,46 @@
       
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown <?php if( $pageID == 'vendita' || $pageID == 'assistenza' || $pageID == 'recupero' || $pageID == 'cancellazione' ) {echo 'active';} ?>">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop fa-lg"></i>Computer<i class="fa fa-caret-down"></i></a>
-            <ul class="dropdown-menu">
-              <li <?php if( $pageID == 'vendita' ) {echo ' class="active"';} ?>><a href="vendita-consulenza-computer" title="Vendita computer e consulenza informatica a Trieste"><i class="fa fa-desktop"></i>Vendita computer</a></li>
-              <!-- <li class="divider" role="separator"></li> -->
-              <li <?php if( $pageID == 'assistenza' ) {echo ' class="active"';} ?>><a href="assistenza-tecnica-riparazione-computer" title="Assistenza tecnica computer multimarca a Trieste"><i class="fa fa-wrench"></i>Assistenza tecnica</a></li>
-              <!-- <li class="divider" role="separator"></li> -->
-              <li <?php if( $pageID == 'consumabili' ) {echo ' class="active"';} ?>><a href="cartucce-toner-stampanti" title="Cartucce toner originali e compatibili a Trieste"><i class="fa fa-tint"></i>Consumabili stampanti</a></li>
-              <!-- <li class="divider" role="separator"></li> -->
-              <li <?php if( $pageID == 'recupero' ) {echo ' class="active"';} ?>><a href="recupero-dati" title="Recupero dati professionale a Trieste"><i class="fa fa-undo"></i>Recupero dati</a></li>
-              <li <?php if( $pageID == 'ransomware' ) {echo ' class="active"';} ?>><a href="eliminazione-ransomware" title="Come rimuovere ransomware a Trieste"><i class="fa fa-unlock"></i>Eliminazione ransomware</a></li>
-            </ul>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cogs fa-lg"></i>Servizi<i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li class="navbar-link"><i class="fa fa-wrench"></i>Hardware
+                  <ul class="list-unstyled">
+                    <li <?php if( $pageID == 'vendita' ) {echo ' class="active"';} ?>>
+                      <a href="vendita-consulenza-computer" title="Computer personalizzati e assemblati a Trieste">Computer e stampanti</a>
+                    </li>
+                    <li <?php if( $pageID == 'assistenza' ) {echo ' class="active"';} ?>>
+                      <a href="assistenza-tecnica-riparazione-computer" title="Assistenza tecnica computer multimarca a Trieste">Assistenza tecnica</a>
+                    </li>
+                    <li <?php if( $pageID == 'recupero' ) {echo ' class="active"';} ?>>
+                      <a href="recupero-dati" title="Recupero dati professionale a Trieste">Recupero dati</a>
+                    </li> 
+                  </ul>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li class="navbar-link"><i class="fa fa-globe fa-lg"></i>Web
+                  <ul class="list-unstyled">
+                    <li <?php if( $pageID == 'webdesign' ) {echo ' class="active"';} ?>>
+                      <a href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">Realizzazione siti web</a>
+                    </li>
+                    <li <?php if( $pageID == 'webperformance' ) {echo ' class="active"';} ?>>
+                      <a href="ottimizzazione-siti-web" title="Ottimizzazione e restyling siti web a Trieste">Ottimizzazione e restyling</a>
+                    </li>
+                    <li <?php if( $pageID == 'brand' ) {echo ' class="active"';} ?>>
+                      <a href="brand-identity" title="Progettazione brand identity e logo design a Trieste">Brand Identity</a>
+                    </li>
+                  </ul>
+                </li>
+                <li role="separator" class="divider"></li>
+                <a href="servizi-per-autocad" title="Corsi personalizzati e produzione AutoCAD dwg a Trieste" class="navbar-link"><i class="fa fa-pencil fa-lg"></i>AutoCAD</a>
+              </ul>
           </li>
-          <li <?php if( $pageID == 'grafica' ) {echo ' class="active"';} ?>><a href="progettazione-stampa-grafica-pubblicitaria" title="Progettazione e stampa grafica pubblicitaria a Trieste"><i class="fa fa-print fa-lg"></i>Grafica</a></li>
-          <li <?php if( $pageID == 'webdesign' ) {echo ' class="active"';} ?>><a href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste"><i class="fa fa-globe fa-lg"></i>Siti Web</a></li>
-          <li <?php if( $pageID == 'autocad' ) {echo ' class="active"';} ?>><a href="servizi-per-autocad" title="Corsi personalizzati e produzione AutoCAD dwg a Trieste"><i class="fa fa-pencil fa-lg"></i>AutoCAD</a></li>
-          <li><a href="#contatti" class="visible-md-block visible-lg-block scroll" title="Contatta TRACK Graphics"><i class="fa fa-envelope"></i> Contatti</a></li>
+          <li <?php if( $pageID == 'chisiamo' ) {echo ' class="active"';} ?>>
+            <a href="chi-siamo" title="Leggi la nostra storia."><i class="fa fa-users"></i>Chi siamo</a>
+          </li>
+          <li>
+            <a href="#contatti" title="Contatta TRACK Graphics" class="visible-md-block visible-lg-block scroll"><i class="fa fa-envelope"></i> Contatti</a>
+          </li>
         </ul>
       </div><!-- /.nav-collapse -->
     </div>

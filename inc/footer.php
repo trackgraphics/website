@@ -124,7 +124,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <!-- <div class="col-sm-4">
         <h4>Mappa del sito</h4>
         <ul class="fa-ul">
           <li>
@@ -144,20 +144,19 @@
           <li><a href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive con Bootstrap e Joomla! a Trieste"><i class="fa-li fa fa-globe fa-lg"></i> Siti Web</a></li>
           <li><a href="servizi-per-autocad" title="Corsi personalizzati e produzione AutoCAD dwg a Trieste"><i class="fa-li fa fa-pencil fa-lg"></i> AutoCAD</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <div class="col-sm-4">
         <h4>Informazioni</h4>
         <ul class="fa-ul">
           <li><a class="scroll" href="#contatti" title="Contatta TRACK Graphics."><i class="fa fa-li fa-envelope"></i>Contatti</a></li>
-          <!-- <li><a href="chi-siamo" title="Leggi la nostra storia."><i class="fa fa-li fa-users"></i>Chi siamo</a></li> -->
+          <li><a href="chi-siamo" title="Leggi la nostra storia."><i class="fa fa-li fa-users"></i>Chi siamo</a></li>
           <li><a href="testimonianze" title="Clienti soddisfatti di noi."><i class="fa fa-li fa-comments"></i> Dicono di noi</a></li>
           <li><a href="https://acconsento.click/informative/page/453/it" title="Privacy policy" target="_blank"><i class="fa fa-li fa-gavel"></i>Privacy</a></li>
         </ul>
-
       </div>
 
-      <div itemscope itemtype="http://schema.org/LocalBusiness" class="col-sm-4">
+      <div itemscope itemtype="http://schema.org/LocalBusiness" class="col-sm-4 col-sm-offset-4">
         <h4>
           <a href="<?php echo '/'; ?>" title="Vendita e assistenza tecnica computer a Trieste, grafica pubblicitaria, realizzazione siti web e servizi per AutoCAD">
             <span itemprop="name">TRACK Graphics</span> s.a.s.
@@ -181,8 +180,8 @@
     <div class="row text-center">
       <ul class="list-inline social">
         <li><a href="http://www.facebook.com/TRACKGraphicsTrieste/" title="Seguici su Facebook"><i class="fa fa-circled fa-facebook"></i></a></li>
-        <li><a href="http://twitter.com/TRACK_Graphics" title="Seguici su Twitter"><i class="fa fa-circled fa-twitter"></i></a></li>
-        <li><a href="http://plus.google.com/b/107932246528226277985/+TrackgraphicsIt/posts/p/pub?gmbpt=true&pageId=107932246528226277985" title="Seguici su Google+"><i class="fa fa-circled fa-google-plus"></i></a></li>
+        <!-- <li><a href="http://twitter.com/TRACK_Graphics" title="Seguici su Twitter"><i class="fa fa-circled fa-twitter"></i></a></li> -->
+        <!-- <li><a href="http://plus.google.com/b/107932246528226277985/+TrackgraphicsIt/posts/p/pub?gmbpt=true&pageId=107932246528226277985" title="Seguici su Google+"><i class="fa fa-circled fa-google-plus"></i></a></li> -->
         <li><a href="http://www.linkedin.com/company/track-graphics" title="Seguici su LinkedIn"><i class="fa fa-circled fa-linkedin"></i></a></li>
       </ul>
     </div>

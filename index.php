@@ -60,7 +60,7 @@
         <div class="col-sm-12">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             
-            <!-- Computer -->
+            <!-- Hardware -->
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingOne">
                 <h3 class="panel-title">
@@ -82,15 +82,15 @@
                         <a href="#serv-assistenza" class="list-group-item">
                           <i class="fa fa-wrench"></i> Riparazione computer
                         </a>
-                        <a href="#serv-consumabili" class="list-group-item">
+                        <!-- <a href="#serv-consumabili" class="list-group-item">
                           <i class="fa fa-tint"></i> Cartucce e toner stampanti
-                        </a>
+                        </a> -->
                         <a href="#serv-recupero" class="list-group-item">
                           <i class="fa fa-undo"></i> Recupero dati
                         </a>
-                        <a href="#serv-ransomware" class="list-group-item">
+                        <!-- <a href="#serv-ransomware" class="list-group-item">
                           <i class="fa fa-unlock"></i> Eliminazione ransomware
-                        </a>
+                        </a> -->
                       </div>
                     </div>
                     
@@ -141,7 +141,7 @@
                     </div>
 
                     <!-- Consumabili stampanti -->
-                    <div id="serv-consumabili" class="col-sm-12 col-md-7 service-hidden">
+                    <!-- <div id="serv-consumabili" class="col-sm-12 col-md-7 service-hidden">
                       <h4>Consumabili stampanti</h4>
                       <div class="media">
                         <a class="pull-left" href="cartucce-toner-stampanti" title="Cartucce toner originali e compatibili a Trieste">
@@ -160,7 +160,7 @@
                           </a> 
                         </div>
                       </div>
-                    </div>
+                    </div> -->
 
                     <!-- Recupero dati -->
                     <div id="serv-recupero" class="col-sm-12 col-md-7 service-hidden">
@@ -186,7 +186,7 @@
                     </div>
 
                     <!-- Eliminazione ransomware -->
-                    <div id="serv-ransomware" class="col-sm-12 col-md-7 service-hidden">
+                    <!-- <div id="serv-ransomware" class="col-sm-12 col-md-7 service-hidden">
                       <h4>Eliminazione ransomware</h4>
                       <div class="media">
                         <a class="pull-left" href="recupero-dati" title="Rimozione ransomware a Trieste">
@@ -206,14 +206,14 @@
                           </a> 
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                   </div>    
                 </div>
               </div>              
             </div>
             
             <!-- Grafica -->
-            <div class="panel panel-default">
+            <!-- <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingTwo">
                 <h3 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -254,7 +254,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             
             <!-- Siti Web -->
             <div class="panel panel-default">
@@ -269,10 +269,72 @@
                 <div class="panel-body">
                   <div class="row">
                     <div class="col-sm-12 col-md-5">
-                      <img class="img-responsive center-block" src="img/siti-web-responsive-ecommerce-blog-a-trieste.jpg" width="500" height="333" alt="Siti web responsive ecommerce blog a Trieste">
+                      <!-- <img class="img-responsive center-block" src="img/siti-web-responsive-ecommerce-blog-a-trieste.jpg" width="500" height="333" alt="Siti web responsive ecommerce blog a Trieste"> -->
+                      <div class="list-group">
+                        <a href="#serv-webdesign" class="list-group-item active">
+                          <i class="fa fa-desktop"></i> Realizzazione siti web
+                        </a>
+                        <a href="#serv-web-performance" class="list-group-item">
+                          <i class="fa fa-wrench"></i> Ottimizzazione e restyling
+                        </a>
+                        <a href="#serv-brand" class="list-group-item">
+                          <i class="fa fa-undo"></i> Brand Identity
+                        </a>
+                      </div>
                     </div>
-                    <div class="col-sm-12 col-md-7">
-                      <h4>Realizzazione e restyling siti web</h4>
+                    
+                    <div id="serv-webdesign" class="col-sm-12 col-md-7 service-visible">
+                      <h4>Realizzazione siti web</h4>
+                      <div class="media">
+                        <a class="pull-left" href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">
+                          <i class="fa fa-squared fa-globe"></i>
+                        </a>
+                        <div class="media-body">
+                          <ul>
+                            <li>
+                              Realizziamo <strong class="mypopover" data-title="Web Agency" data-content="Raccontaci la tua idea e la svilupperemo insieme: blog, sito vetrina, e-commerce o gestionale web.">qualsiasi tipo</strong> di sito web in base alle tue esigenze. Cosa ti serve? Un blog, un sito aziendale o un sito e-commerce?.
+                            </li>
+                            <li>
+                              Seguiamo i princìpi del <strong class="mypopover" data-title="Web design reattivo" data-content="Le persone che navigano su Internet con lo smartphone sono più numerose di quelle che utilizzano un computer da scrivania.">responsive</strong> web design. I visitatori potranno esplorare il tuo sito con un computer fisso, con il tablet e con lo smartphone.
+                            </li>
+                            <li>
+                              I nostri siti web <strong class="mypopover" data-title="Semplicità d'uso" data-content="Non ti abbandoniamo appena messo on-line il tuo sito: ti insegneremo a gestire il tuo negozio e saremo a disposizione per qualsiasi futura esigenza.">e-commerce</strong> sono semplici da gestire. Aprire il tuo negozio online e prenderti cura dei tuoi clienti sarà facile.
+                            </li>
+                          </ul>
+                          <a class="btn btn-lg btn-primary btn-labeled" href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">
+                            <span class="btn-label">Scopri come fare</span><i class="fa fa-angle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="serv-web-performance" class="col-sm-12 col-md-7 service-hidden">
+                      <h4>Ottimizzazione e restyling</h4>
+                      <div class="media">
+                        <a class="pull-left" href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">
+                          <i class="fa fa-squared fa-globe"></i>
+                        </a>
+                        <div class="media-body">
+                          <ul>
+                            <li>
+                              Realizziamo <strong class="mypopover" data-title="Web Agency" data-content="Raccontaci la tua idea e la svilupperemo insieme: blog, sito vetrina, e-commerce o gestionale web.">qualsiasi tipo</strong> di sito web in base alle tue esigenze. Cosa ti serve? Un blog, un sito aziendale o un sito e-commerce?.
+                            </li>
+                            <li>
+                              Seguiamo i princìpi del <strong class="mypopover" data-title="Web design reattivo" data-content="Le persone che navigano su Internet con lo smartphone sono più numerose di quelle che utilizzano un computer da scrivania.">responsive</strong> web design. I visitatori potranno esplorare il tuo sito con un computer fisso, con il tablet e con lo smartphone.
+                            </li>
+                            <li>
+                              I nostri siti web <strong class="mypopover" data-title="Semplicità d'uso" data-content="Non ti abbandoniamo appena messo on-line il tuo sito: ti insegneremo a gestire il tuo negozio e saremo a disposizione per qualsiasi futura esigenza.">e-commerce</strong> sono semplici da gestire. Aprire il tuo negozio online e prenderti cura dei tuoi clienti sarà facile.
+                            </li>
+                          </ul>
+                          <a class="btn btn-lg btn-primary btn-labeled" href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">
+                            <span class="btn-label">Scopri come fare</span><i class="fa fa-angle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="serv-brand" class="col-sm-12 col-md-7 service-hidden">
+                      <h4>Brand Identity</h4>
                       <div class="media">
                         <a class="pull-left" href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">
                           <i class="fa fa-squared fa-globe"></i>
@@ -329,9 +391,9 @@
                             <li>
                               Organizziamo <strong class="mypopover" data-title="Didattica su misura" data-content="I nostri corsi di formazione vengono erogati in base alle tue esigenze: scegliamo assieme a te i contenuti e il calendario delle lezioni.">corsi personalizzati</strong> di AutoCAD 2D e 3D per aziende o privati. I nostri corsi si svolgono esclusivamente presso la tua azienda o a domicilio.
                             </li>
-                            <li>
+                            <!-- <li>
                               Sviluppiamo <strong class="mypopover" data-title="Programmazione AutoCAD" data-content="AutoCAD è un prodotto orizzontale adatto a qualsiasi settore della progettazione: siamo in grado di espandere le sue funzionalità di base a seconda delle tue necessità.">software personalizzato</strong> per AutoCAD. Aumentiamo la tua produttività, riduciamo le operazioni di routine e facilitiamo lo scambio di informazioni.
-                            </li>
+                            </li> -->
                           </ul>
                           <a class="btn btn-lg btn-primary btn-labeled" href="servizi-per-autocad" title="Corsi personalizzati e produzione AutoCAD dwg a Trieste">
                             <span class="btn-label">Scopri come fare</span><i class="fa fa-angle-right"></i>

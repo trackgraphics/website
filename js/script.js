@@ -46,7 +46,8 @@ $('.very-big').fadeIn('slow');
 // Servizi
 $( '.list-group-item' ).on( 'click', function(e) {
     e.preventDefault();
-    var itemCurrent = $( '.list-group-item.active' ).attr( 'href' );
+    var parent = $(this).parent();
+    var itemCurrent = parent.find(( '.list-group-item.active' )).attr( 'href' );
     var itemSelected = $( this ).attr( 'href' );
     // Actions on list group
     $( '.list-group-item.active' ).removeClass( 'active' );
