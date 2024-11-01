@@ -1,5 +1,5 @@
-/.DS_Store
-/.htaccess
-/.cpanel.yml
-/gulpfile.js
-/.vscode/*
+*DS_Store
+.htaccess
+.cpanel.yml
+gulpfile.js
+.vscode/*

@@ -6180,6 +6180,9 @@ body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
+.padded {
+  padding-top: 60px;
+}
 .navbar-link {
   font-weight: 700;
 }
@@ -6594,9 +6597,9 @@ footer a {
   border-top-left-radius: 50%;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   background: #9adcf5;
 }
 @media (min-width: 992px) {
@@ -6621,16 +6624,16 @@ footer a {
   right: 0;
   color: #fff;
   font-family: 'FontAwesome';
-  font-size: 80px/2;
+  font-size: 40px;
   line-height: 70px;
   text-align: center;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 @media (min-width: 992px) {
   .feature-icon::before {
-    font-size: 80px/2 * 1.5;
+    font-size: 60px;
     line-height: 108.75px;
   }
 }

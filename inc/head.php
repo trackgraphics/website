@@ -132,12 +132,6 @@
     <!-- Main CSS based upon Boostrap-->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
     <!-- Canonical link -->
     <link rel="canonical" href="<?php getCanonicalURL($pageID) ?>">
 
@@ -146,7 +140,7 @@
       
   </head>
 
-  <body>
+  <body <?php if (!is_null($hasJumbotron)) {echo ' class="padded"';} ?>>
   <!-- Facebook SDK -->
   <script>
     window.fbAsyncInit = function() {
@@ -216,10 +210,10 @@
                 <li class="navbar-link"><i class="fa fa-globe fa-lg"></i>Web
                   <ul class="list-unstyled">
                     <li <?php if( $pageID == 'webdesign' ) {echo ' class="active"';} ?>>
-                      <a href="realizzazione-restyling-siti-web" title="Realizzazione e restyling siti web responsive a Trieste">Realizzazione siti web</a>
+                      <a href="realizzazione-siti-web-wordpress" title="Realizzazione siti web personalizzati con WordPress a Trieste">Realizzazione siti web</a>
                     </li>
                     <li <?php if( $pageID == 'webperformance' ) {echo ' class="active"';} ?>>
-                      <a href="ottimizzazione-siti-web" title="Ottimizzazione e restyling siti web a Trieste">Ottimizzazione e restyling</a>
+                      <a href="ottimizzazione-restyling-siti-web" title="Ottimizzazione e restyling siti web a Trieste">Ottimizzazione e restyling</a>
                     </li>
                     <li <?php if( $pageID == 'brand' ) {echo ' class="active"';} ?>>
                       <a href="brand-identity" title="Progettazione brand identity e logo design a Trieste">Brand Identity</a>

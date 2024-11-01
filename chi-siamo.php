@@ -2,6 +2,7 @@
   $pageID = 'chisiamo';
   $pageTitle = 'A Trieste vendita e assistenza tecnica computer, grafica pubblicitaria, realizzazione siti web e servizi per AutoCAD';
   $description = 'TRACK Graphics è una piccola e atipica azienda di Trieste: offriamo servizi personalizzati per l\'informatica.';
+  $hasJumbotron = false;
 ?>
 <?php include('inc/head.php'); ?>
     <!-- Jumbotron -->
@@ -22,14 +23,6 @@
         <h1>Chi siamo</h1>
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
-                   
-        </div>
-        <div class="col-md-6">
-
-        </div>
-      </div>
       <!-- /Presentazione della TRACK Graphics -->
     </div><!-- /Contenuto principale -->
 

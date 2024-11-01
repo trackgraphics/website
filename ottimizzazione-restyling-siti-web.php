@@ -2,6 +2,7 @@
   $pageID = 'webperformance';
   $pageTitle = 'Ottimizzazione e restyling siti web a Trieste';
   $description = 'TRACK Graphics di Trieste si occupa di ottimizzazione e restyling siti web.';
+  $hasJumbotron = false;
 ?>
 <?php include('inc/head.php'); ?>
     <!-- Contenuto principale -->

@@ -1,16 +1,16 @@
 <?php
-  $pageID = 'brand';
-  $pageTitle = 'Brand identity e logo design a Trieste';
-  $description = 'TRACK Graphics di Trieste si occupa di brand identity e logo design.';
+  $pageID = 'webdesign';
+  $pageTitle = 'Realizzazione siti web personalizzati con WordPress a Trieste';
+  $description = 'TRACK Graphics di Trieste si occupa di realizzazione siti web personalizzati con WordPress.';
   $hasJumbotron = false;
 ?>
-<?php include('inc/head.php'); ?>
+<?php include('inc/head.php'); ?>    
     <!-- Contenuto principale -->
     <div class="container" id="page-container">
 
       <!-- Presentazione dei servizi -->
       <div id="servizi-intro" class="page-header">
-        <h1>Brand identity e logo design</h1>
+        <h1>Realizzazione siti web con WordPress</h1>
       </div>
 
     </div><!-- /Contenuto principale -->
