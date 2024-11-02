@@ -5,22 +5,12 @@
   $hasJumbotron = false;
 ?>
 <?php include('inc/head.php'); ?>
-    <!-- Jumbotron -->
-    <div id="chi-siamo-jumbotron" class="jumbotron">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            
-          </div>
-        </div>
-      </div>
-    </div><!-- /Jumbotron -->
-    
     <!-- Contenuto principale -->
     <div class="container" id="page-container">
       <!-- Presentazione della TRACK Graphics -->
-      <div id="servizi-intro" class="page-header">
+      <div id="chisiamo-intro" class="page-header">
         <h1>Chi siamo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo, in reprehenderit molestias sit cumque necessitatibus. Cumque quae labore non, accusantium, doloremque dignissimos consectetur eum magni necessitatibus cum nemo numquam?</p>
       </div>
 
       <!-- /Presentazione della TRACK Graphics -->

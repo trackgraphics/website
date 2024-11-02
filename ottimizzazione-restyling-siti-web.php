@@ -9,8 +9,9 @@
     <div class="container" id="page-container">
 
       <!-- Presentazione dei servizi -->
-      <div id="servizi-intro" class="page-header">
+      <div id="webperformance-intro" class="page-header">
         <h1>Ottimizzazione e restyling siti web</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nulla, alias laboriosam omnis aliquam nam ut vel nemo id distinctio dolore. Hic, at. Eligendi obcaecati est mollitia facere magnam consequatur!</p>
       </div>
 
     </div><!-- /Contenuto principale -->

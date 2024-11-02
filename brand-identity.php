@@ -9,8 +9,9 @@
     <div class="container" id="page-container">
 
       <!-- Presentazione dei servizi -->
-      <div id="servizi-intro" class="page-header">
+      <div id="brand-intro" class="page-header">
         <h1>Brand identity e logo design</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem accusamus at aspernatur veniam ut optio nostrum! Reprehenderit beatae nemo, dicta libero veritatis odio repellendus explicabo, cupiditate tempora deleniti facilis sint!</p>
       </div>
 
     </div><!-- /Contenuto principale -->

@@ -9,8 +9,9 @@
     <div class="container" id="page-container">
 
       <!-- Presentazione dei servizi -->
-      <div id="servizi-intro" class="page-header">
+      <div id="webdesign-intro" class="page-header">
         <h1>Realizzazione siti web con WordPress</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa minus totam numquam consequuntur recusandae tenetur libero eum, aspernatur dolore maxime consequatur tempora hic excepturi necessitatibus neque commodi doloribus at. Veritatis!</p>
       </div>
 
     </div><!-- /Contenuto principale -->
