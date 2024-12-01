@@ -1,5 +1,9 @@
 User-agent: *
-Disallow: /inc/
-Disallow: /phpmailer/
-Disallow: /email/
-Disallow: /extend/
+# Commentare in produzione
+Disallow: /
+
+# Decommentare in produzione
+# Disallow: /inc/
+# Disallow: /phpmailer/
+# Disallow: /email/
+# Disallow: /extend/
